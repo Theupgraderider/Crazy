@@ -164,8 +164,6 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ]
                         ]
                     )
@@ -326,8 +324,6 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                    ]
                     ]
                 )
@@ -382,8 +378,6 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                    ]
                     ]
                 )
@@ -437,8 +431,6 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🫨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
            ]
             ]
         )
