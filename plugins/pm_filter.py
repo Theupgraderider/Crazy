@@ -913,7 +913,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton('🍟ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🍟', url=SUPPORT_CHAT),
+                              InlineKeyboardButton('🍟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🍟', url=SUPPORT_CHAT),
                               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                             ]
                             ]
@@ -1004,7 +1004,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('🍟ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🍟', url=SUPPORT_CHAT),
+                  InlineKeyboardButton('🍟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🍟', url=SUPPORT_CHAT),
                   InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ]
                 ]
@@ -1366,12 +1366,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚜️ᴜᴘᴅᴀᴛᴇ⚜️', url=CHNL_LNK),
-                    InlineKeyboardButton('🍟ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ🍟', url=GRP_LNK)
+                    InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇ ⚜️', url=CHNL_LNK),
+                    InlineKeyboardButton('🍟 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🍟', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('‼️ʜᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('‼️ ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
                     InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
