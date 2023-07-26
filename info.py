@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '27402720'))
-API_HASH = environ.get('API_HASH', '38f0682dce493e07863bc6783016e98d')
+API_ID = int(environ.get('API_ID', '20077906'))
+API_HASH = environ.get('API_HASH', 'da36369fbe92c05fd924331af2615e73')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6270831968:AAGY8PTyVTYHM0UBHlj9GnwZZu6dMYdouoc")
 
 # Bot settings
@@ -36,8 +36,8 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001963565155')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001963565155')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001514605372')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001514605372')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
@@ -49,21 +49,21 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_filesg')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '70d5d2a1582bf3b6bd957cd016c865b69cae0fe6')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'ziplinker.net')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '70d5d2a1582bf3b6bd957cd016c865b69cae0fe6')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'OnePageLink.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '807085265f74bb78d42c3c5994d9429c1edd5ac8')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'OnePageLink.in')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '807085265f74bb78d42c3c5994d9429c1edd5ac8')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Sz-hY0aGQfgwNDJl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/upgrade_botz/3')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MhubLinks46/38')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/allmovises0')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Moviesbank_Corporation')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Moviesbank_Corporation/101')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001859923275'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001845562880'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/allmovises0')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
